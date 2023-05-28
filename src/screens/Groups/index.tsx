@@ -1,9 +1,10 @@
-import { GroupsContainer, Title } from "./styles";
+import { Header } from "@components/header";
+import { Container  } from "./styles";
 
 export function Groups() {
   return (
-    <GroupsContainer>
-			<Title>Drogas</Title>
-		</GroupsContainer>
+    <Container>
+			<Header/>
+		</Container>
   );
 }
